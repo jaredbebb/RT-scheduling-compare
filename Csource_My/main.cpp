@@ -1,19 +1,17 @@
-#include "jbtimer.h"
+#include "tasks.h"
 
-typedef unsigned long uint32_t;
 int main ()
 {
-		jbtimer jt;
-		jt.start();
+		Tasks t(10);
 		int counter=0;
     int ii;
-    //for(ii=0;ii<305419896;ii++) {
-		for(ii=0;ii<1000000;ii++) {
+		//1,000,000 loops
+		for(ii=0;ii<100000;ii++) {
 			counter+=1;
-			//*((uint32_t *)0x40E00018) = 0x87654321;
-			//asm("NOP");
+			t.run();
 
     }
 		counter = 13;
     //while(1){}
+
 }
