@@ -1,9 +1,9 @@
 <!doctype html public "-//w3c//dtd html 4.0 transitional//en">
 <html><head>
-<title>Static Call Graph - [.\Objects\rtos_no_peripherals_simulate.axf]</title></head>
+<title>Static Call Graph - [.\Objects\RT-scheduling-compare.axf]</title></head>
 <body><HR>
-<H1>Static Call Graph for image .\Objects\rtos_no_peripherals_simulate.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Sat May 02 09:54:03 2020
+<H1>Static Call Graph for image .\Objects\RT-scheduling-compare.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Sat May 02 10:05:00 2020
 <BR><P>
 <H3>Maximum Stack Usage =        192 bytes + Unknown(Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -241,8 +241,8 @@ Global Symbols
 <P><STRONG><a name="[1f]"></a>Tasks::run()</STRONG> (Thumb, 92 bytes, Stack size 72 bytes, tasks.o(i._ZN5Tasks3runEv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = Tasks::run() &rArr; Edf::find_frame_size(int*, int*, int*) &rArr; lcm(int, int, int) &rArr; gcd(int, int)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Edf::find_frame_size(int*, int*, int*)
-<LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;insertionSort(void(**)(), int*, int*, int*, int)
+<BR>[Calls]<UL><LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;insertionSort(void(**)(), int*, int*, int*, int)
+<LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Edf::find_frame_size(int*, int*, int*)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>

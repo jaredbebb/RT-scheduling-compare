@@ -1,1 +1,1 @@
-.\objects\startup.o: Common_My\startup.s
+.\objects\startup.o: common\startup.s

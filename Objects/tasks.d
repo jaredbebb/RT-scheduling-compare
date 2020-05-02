@@ -1,3 +1,3 @@
-.\objects\tasks.o: Csource_My\tasks.cpp
-.\objects\tasks.o: Csource_My\tasks.h
-.\objects\tasks.o: Csource_My\edf.h
+.\objects\tasks.o: src\tasks.cpp
+.\objects\tasks.o: src\tasks.h
+.\objects\tasks.o: src\edf.h

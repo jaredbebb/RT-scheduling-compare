@@ -1,2 +1,2 @@
-.\objects\edf.o: Csource_My\edf.cpp
-.\objects\edf.o: Csource_My\edf.h
+.\objects\edf.o: src\edf.cpp
+.\objects\edf.o: src\edf.h

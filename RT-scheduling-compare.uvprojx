@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>rtos_no_peripherals_simulate</OutputName>
+          <OutputName>RT-scheduling-compare</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -134,11 +134,11 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4096</DriverSelection>
+            <DriverSelection>-1</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3>"" ()</Flash3>
+          <Flash3></Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -383,34 +383,34 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>startup.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Common_My\startup.s</FilePath>
-            </File>
-            <File>
-              <FileName>main.cpp</FileName>
+              <FileName>edf.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Csource_My\main.cpp</FilePath>
+              <FilePath>.\src\edf.cpp</FilePath>
             </File>
             <File>
               <FileName>edf.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Csource_My\edf.h</FilePath>
+              <FilePath>.\src\edf.h</FilePath>
             </File>
             <File>
-              <FileName>tasks.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Csource_My\tasks.h</FilePath>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\src\main.cpp</FilePath>
             </File>
             <File>
               <FileName>tasks.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\Csource_My\tasks.cpp</FilePath>
+              <FilePath>.\src\tasks.cpp</FilePath>
             </File>
             <File>
-              <FileName>edf.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\Csource_My\edf.cpp</FilePath>
+              <FileName>tasks.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\src\tasks.h</FilePath>
+            </File>
+            <File>
+              <FileName>startup.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\common\startup.s</FilePath>
             </File>
           </Files>
         </Group>

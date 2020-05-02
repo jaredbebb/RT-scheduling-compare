@@ -46,7 +46,7 @@ ork --depend=.\objects\startup.d -o.\objects\startup.o -I.\RTE\_Target_1 -IC:\U
 sers\Jared\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include -I
 "D:\Program Files\Keil_v5\ARM\CMSIS\Include" --predefine="__EVAL SETA 1" --pred
 efine="__UVISION_VERSION SETA 529" --predefine="ARMCM4 SETA 1" --list=.\listing
-s\startup.lst Common_My\startup.s
+s\startup.lst common\startup.s
 
 
 
@@ -57,7 +57,7 @@ STACK 00000000
 
 Symbol: STACK
    Definitions
-      At line 2 in file Common_My\startup.s
+      At line 2 in file common\startup.s
    Uses
       None
 Comment: STACK unused
@@ -65,7 +65,7 @@ Stack_Mem 00000000
 
 Symbol: Stack_Mem
    Definitions
-      At line 4 in file Common_My\startup.s
+      At line 4 in file common\startup.s
    Uses
       None
 Comment: Stack_Mem unused
@@ -73,18 +73,18 @@ __initial_sp 00000401
 
 Symbol: __initial_sp
    Definitions
-      At line 5 in file Common_My\startup.s
+      At line 5 in file common\startup.s
    Uses
-      At line 12 in file Common_My\startup.s
-      At line 26 in file Common_My\startup.s
+      At line 12 in file common\startup.s
+      At line 26 in file common\startup.s
 
 __stack_limit 00000000
 
 Symbol: __stack_limit
    Definitions
-      At line 3 in file Common_My\startup.s
+      At line 3 in file common\startup.s
    Uses
-      At line 25 in file Common_My\startup.s
+      At line 25 in file common\startup.s
 Comment: __stack_limit used once
 4 symbols
 
@@ -97,7 +97,7 @@ RESET 00000000
 
 Symbol: RESET
    Definitions
-      At line 8 in file Common_My\startup.s
+      At line 8 in file common\startup.s
    Uses
       None
 Comment: RESET unused
@@ -105,19 +105,19 @@ __Vectors 00000000
 
 Symbol: __Vectors
    Definitions
-      At line 12 in file Common_My\startup.s
+      At line 12 in file common\startup.s
    Uses
-      At line 9 in file Common_My\startup.s
-      At line 17 in file Common_My\startup.s
+      At line 9 in file common\startup.s
+      At line 17 in file common\startup.s
 
 __Vectors_End 00000008
 
 Symbol: __Vectors_End
    Definitions
-      At line 15 in file Common_My\startup.s
+      At line 15 in file common\startup.s
    Uses
-      At line 10 in file Common_My\startup.s
-      At line 17 in file Common_My\startup.s
+      At line 10 in file common\startup.s
+      At line 17 in file common\startup.s
 
 3 symbols
 
@@ -130,7 +130,7 @@ Relocatable symbols
 
 Symbol: .text
    Definitions
-      At line 18 in file Common_My\startup.s
+      At line 18 in file common\startup.s
    Uses
       None
 Comment: .text unused
@@ -138,10 +138,10 @@ Reset_Handler 00000000
 
 Symbol: Reset_Handler
    Definitions
-      At line 19 in file Common_My\startup.s
+      At line 19 in file common\startup.s
    Uses
-      At line 13 in file Common_My\startup.s
-      At line 20 in file Common_My\startup.s
+      At line 13 in file common\startup.s
+      At line 20 in file common\startup.s
 
 2 symbols
 
@@ -154,17 +154,17 @@ Stack_Size 00000401
 
 Symbol: Stack_Size
    Definitions
-      At line 1 in file Common_My\startup.s
+      At line 1 in file common\startup.s
    Uses
-      At line 4 in file Common_My\startup.s
+      At line 4 in file common\startup.s
 Comment: Stack_Size used once
 __Vectors_Size 00000008
 
 Symbol: __Vectors_Size
    Definitions
-      At line 17 in file Common_My\startup.s
+      At line 17 in file common\startup.s
    Uses
-      At line 11 in file Common_My\startup.s
+      At line 11 in file common\startup.s
 Comment: __Vectors_Size used once
 2 symbols
 
@@ -177,9 +177,9 @@ __main 00000000
 
 Symbol: __main
    Definitions
-      At line 21 in file Common_My\startup.s
+      At line 21 in file common\startup.s
    Uses
-      At line 22 in file Common_My\startup.s
+      At line 22 in file common\startup.s
 Comment: __main used once
 1 symbol
 347 symbols in table
