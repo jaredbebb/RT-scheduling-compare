@@ -412,6 +412,16 @@
               <FileType>2</FileType>
               <FilePath>.\common\startup.s</FilePath>
             </File>
+            <File>
+              <FileName>lst.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\src\lst.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>lst.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\src\lst.h</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

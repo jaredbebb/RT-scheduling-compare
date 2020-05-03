@@ -4,6 +4,7 @@ __stack_limit
 Stack_Mem       SPACE Stack_Size
 __initial_sp
 
+
 ; Vector Table Mapped to Address 0 at Reset
  AREA RESET, DATA, READONLY
  EXPORT __Vectors
