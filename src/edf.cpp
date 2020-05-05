@@ -6,31 +6,16 @@
  * Assume clock driven, cyclic scheduling
  */
 
-uint8_t Scheduler::sch_add_loop( sch_loop_func_t loop_func, uint8_t period, uint8_t execution, uint8_t deadline )
+int Scheduler::sch_add_loop( sch_loop_func_t loop_func, int period, int execution, int deadline )
 {
-
-	//uint8_t i = SCH_NO_TIMEOUT_ID;
-	uint8_t i = 0;
-	for( i= 0; i < MAX_LOOPS; i++)
-	{
-		//if (sch_loop_funcs_on_overriden[i] == SCH_FUNC_OFF)
-		//{
-		//	break;
-		//}
-	}
-	//if (MAX_LOOPS > i)
-	//{
-	//	sch_loop_funcs_overriden[i] = loop_func;
-	//	sch_loop_funcs_on_overriden[i] = SCH_FUNC_ON;
-
+		int i = 0;
+		for( i= 0; i < MAX_LOOPS; i++)
+		{
+		}
 		sch_loop_funcs_period[i] = period;
 		sch_loop_funcs_execution[i] = execution;
 		sch_loop_funcs_deadline[i] = deadline;
-
 		return i;
-	//}
-	// else not found free space
-	//return 	SCH_NO_TIMEOUT_ID;
 }
 
 int min(int x, int y){

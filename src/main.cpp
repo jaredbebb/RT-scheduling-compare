@@ -1,5 +1,5 @@
+#include "lst.h"
 #include "tasks.h"
-
 
 /* System timer, SysTick */
 #define SYST_CSR      (*( ( volatile unsigned long *) 0xE000E010 )) // SystTick Control and Status Register
@@ -19,12 +19,14 @@ int main ()
 {
 		SYST_RVR = RELOAD_VALUE;    // Reload value for 1ms tick
 	  /* Enable the Systick, Systick Interrup and select CPU Clock Source */	
-		Tasks t(10);
+		//Tasks t_edf(3);
+		Tasks t_lst(3);
+		
     int i;
-		//1,000,000 loops
 		for(i=0;i<50;i++) {
 			SYST_CSR = (1<<SBIT_ENABLE) | (1<<SBIT_TICKINT) | (1<<SBIT_CLKSOURCE);
-			t.run();
+			//t_edf.runEDF();
+			t_lst.runLST(SYST_CSR);
     }
     //while(1){}
 }

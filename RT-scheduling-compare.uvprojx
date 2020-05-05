@@ -324,7 +324,7 @@
             <wLevel>2</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
-            <uC99>1</uC99>
+            <uC99>0</uC99>
             <uGnu>1</uGnu>
             <useXO>0</useXO>
             <v6Lang>1</v6Lang>
@@ -408,11 +408,6 @@
               <FilePath>.\src\tasks.h</FilePath>
             </File>
             <File>
-              <FileName>startup.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\common\startup.s</FilePath>
-            </File>
-            <File>
               <FileName>lst.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>.\src\lst.cpp</FilePath>
@@ -421,6 +416,26 @@
               <FileName>lst.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\src\lst.h</FilePath>
+            </File>
+            <File>
+              <FileName>utilities.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\src\utilities.h</FilePath>
+            </File>
+            <File>
+              <FileName>scheduling.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\src\scheduling.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>scheduling.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\src\scheduling.h</FilePath>
+            </File>
+            <File>
+              <FileName>startup.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\common\startup.s</FilePath>
             </File>
           </Files>
         </Group>
