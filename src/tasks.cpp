@@ -21,14 +21,25 @@ void Tasks::sch_add_loop(sch_loop_func_t loop_func){
 		}
 }
 
-void Tasks::runEDF(){
-	int p[] = {10,10,11};
-	int e[] = {5,10,5};
-	int d[] = {40,50,30};
+void Tasks::runEDFAlg(){
+	p[0] = 10;
+	p[1] = 10;
+	p[2] = 11;
+	e[0] = 5;
+	e[1]=10;
+	e[2]=5;
+	d[0] = 40;
+	d[1] =50;
+	d[2] =30;
 	
 	int n = (int)(sizeof(d) / sizeof(d[0]));
-	
-	sch_loop_func_t functions[] = {read,check,react};
+	sch_loop_func_t f[] = {read,check,react};
+	for(int i=0; i < maxloops; i++){
+		functions[i] = f[i];
+	}
+	//functions[0] = read;
+	//functions[0] = check;
+	//functions[0] = react;
 	int frame_size;
 	Edf edf;
 	frame_size = edf.find_frame_size( p, e, d );
@@ -38,8 +49,11 @@ void Tasks::runEDF(){
 	}
 	Scheduling s;
 	s.insertionSortByDeadline(functions, p, e, d, n);
-	for(int f=0; f < maxloops; f++){
-		functions[f]();
+}
+
+void Tasks::runTasks(){
+		for(int f=0; f < maxloops; f++){
+				functions[f]();
 	}
 }
 

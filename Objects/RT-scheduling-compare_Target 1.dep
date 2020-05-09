@@ -4,7 +4,7 @@ F (.\src\edf.cpp)(0x5EAF3AFD)(--cpp -c --cpu Cortex-M4 -D__EVAL --li -g -O0 --ap
 I (src\edf.h)(0x5EAF3B00)
 I (src\utilities.h)(0x5EB0C764)
 F (.\src\edf.h)(0x5EAF3B00)()
-F (.\src\main.cpp)(0x5EB0DD69)(--cpp -c --cpu Cortex-M4 -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Jared\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DARMCM4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\src\main.cpp)(0x5EB5F7E7)(--cpp -c --cpu Cortex-M4 -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Jared\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DARMCM4-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (src\lst.h)(0x5EB0C6E3)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\vector)(0x5D9B88E8)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\limits)(0x5D9B88E8)
@@ -33,10 +33,10 @@ I (D:\Program Files\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x5D9B88E4)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x5D9B88E4)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x5D9B88E4)
 I (src\utilities.h)(0x5EB0C764)
-I (src\tasks.h)(0x5EB0C116)
+I (src\tasks.h)(0x5EB5EF2A)
 I (src\edf.h)(0x5EAF3B00)
-F (.\src\tasks.cpp)(0x5EB0C9CA)(--cpp -c --cpu Cortex-M4 -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Jared\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DARMCM4-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
-I (src\tasks.h)(0x5EB0C116)
+F (.\src\tasks.cpp)(0x5EB5F2B8)(--cpp -c --cpu Cortex-M4 -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Jared\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DARMCM4-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (src\tasks.h)(0x5EB5EF2A)
 I (src\utilities.h)(0x5EB0C764)
 I (src\edf.h)(0x5EAF3B00)
 I (src\scheduling.h)(0x5EB0683E)
@@ -67,7 +67,7 @@ I (D:\Program Files\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x5D9B88E2)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x5D9B88E4)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x5D9B88E4)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x5D9B88E4)
-F (.\src\tasks.h)(0x5EB0C116)()
+F (.\src\tasks.h)(0x5EB5EF2A)()
 F (.\src\lst.cpp)(0x5EB0C6F0)(--cpp -c --cpu Cortex-M4 -D__EVAL --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\Jared\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DARMCM4-o .\objects\lst.o --omf_browse .\objects\lst.crf --depend .\objects\lst.d)
 I (src\lst.h)(0x5EB0C6E3)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\vector)(0x5D9B88E8)
