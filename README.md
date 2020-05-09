@@ -2,20 +2,20 @@
 
 Comparative Implementation of Dynamic and Static Scheduling Algorithms in Real-Time System
 
-ARM Cortex M0
-EDF - 100,000 runs=16.808 seconds
+EDF per 50 schedules
+ARM Cortex	Time (Seconds)	Seconds/Schedule
+M0		0.000588	0.00001176
+M1		0.000588	0.00001176
+M3		0.000408	0.00000816
+M4		0.000408	0.00000816
+M7		0.000408	0.00000816
+SC000		0.000408	0.00000816
 
-ARM Cortex M1
-EDF - 100,000 runs=16.808 seconds
+LST per 50 schedules
+ARM Cortex	Time (Seconds)	Seconds/Schedule
+M0		0.002442	0.00004884
+M3		0.002107	0.00004215
+M4		0.002107	0.00004215
 
-ARM Cortex  M3
-EDF - 100,000 runs=8.808 seconds
 
-ARM Cortex M4
-EDF - 100,000 runs =8.808 seconds
 
-ARM Cortex M7
-EDF - 100,000 runs=8.808 seconds
-
-ARM Cortex SC000
-EDF - 100,000 runs=8.808 seconds
